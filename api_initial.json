@@ -1,0 +1,53 @@
+[
+    {
+        "model": "api.company",
+        "pk": "737ccd88-d631-45b9-80c7-8426db87f050",
+        "fields": {
+            "name": "company_1",
+            "created_at": "2024-09-21T12:23:25.906Z",
+            "updated_at": "2024-09-21T12:28:27.333Z"
+        }
+    },
+    {
+        "model": "api.company",
+        "pk": "01708f61-5ee6-4517-b90d-742999b7782d",
+        "fields": {
+            "name": "company_2",
+            "created_at": "2024-09-21T12:28:34.941Z",
+            "updated_at": "2024-09-21T12:28:34.941Z"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": "f6aa5438-c07c-439e-99b6-fb6a57039507",
+        "fields": {
+            "company": "737ccd88-d631-45b9-80c7-8426db87f050",
+            "name": "cat_a",
+            "parent_category": null,
+            "created_at": "2024-09-21T12:23:42.472Z",
+            "updated_at": "2024-09-21T12:24:38.421Z"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": "a6ad2721-f8eb-4b69-9b9f-f9abaa303f6b",
+        "fields": {
+            "company": "01708f61-5ee6-4517-b90d-742999b7782d",
+            "name": "cat_b",
+            "parent_category": null,
+            "created_at": "2024-09-21T12:24:34.358Z",
+            "updated_at": "2024-09-21T12:28:49.850Z"
+        }
+    },
+    {
+        "model": "api.category",
+        "pk": "a57b9ae1-788e-4a92-bc87-e0577f6e0e87",
+        "fields": {
+            "company": "01708f61-5ee6-4517-b90d-742999b7782d",
+            "name": "cat_b1",
+            "parent_category": "a6ad2721-f8eb-4b69-9b9f-f9abaa303f6b",
+            "created_at": "2024-09-21T12:25:10.582Z",
+            "updated_at": "2024-09-21T12:28:54.411Z"
+        }
+    }
+]
